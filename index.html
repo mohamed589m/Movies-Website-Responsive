@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstarp/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Template 3</title>
+  </head>
+  <body>
+    <!-- -------------------------------------------------Header------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-md py-1">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand ms-3 fw-bold fst-italic fs-3 text-light"
+          href="#"
+        >
+          <i
+            class="fab fa-galactic-senate logoIcon text-light me-2 me-0 fs-1 fa-magento"
+          ></i
+          >fox</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars text-dark"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-anime-item">
+              <a
+                class="nav-link active px-2 px-lg-3"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Blog</a
+              >
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#"
+                    >Another link</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#"
+                    >A third link</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 px-lg-3" href="#">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-2 px-lg-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#">Link</a>
+                </li>
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#"
+                    >Another link</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item bg-dark text-light" href="#"
+                    >A third link</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-2 px-lg-3">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+          <a href="#" class="text-decoration-none"
+            ><i class="fas fa-search search px-3 d-none d-lg-block"> </i
+          ></a>
+          <button
+            class="btn btn-light rounded-pill me-3 text-center pb-2 login"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -------------------------------------------------Carousel------------------------------------------------------- -->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./images/fantasy.jpg"
+            alt="fantasy"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Science Fiction Movies</h3>
+            <p>
+              Logic will get you from A to B. Imagination will take you
+              everywhere.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/action2.jpg"
+            alt="action"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Action Movies</h3>
+            <p>
+              Strength and growth come only through continuous effort and
+              struggle.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./images/crime.jpg"
+            alt="crime"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Mystery Movies</h3>
+            <p>
+              The true mystery of the world is the visible, not the invisible.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- ------------------------------------------------- fixed icons  ------------------------------------------------------- -->
+    <aside>
+      <div
+        class="icon-container fixed-icons position-fixed d-flex flex-column end-0 bottom-0"
+      >
+        <div class="icons-parent d-flex flex-column">
+          <a href="#">
+            <i class="fab fa-facebook-square h3 text-primary"></i
+          ></a>
+          <a href="#"><i class="fab fa-whatsapp-square h3 text-success"></i></a>
+          <a href="#"><i class="fab fa-twitter-square h3 text-info"></i></a>
+          <a href="#"><i class="fab fa-linkedin h3 text-primary"></i></a>
+          <a href="#"><i class="fab fa-instagram-square h3 text-danger"></i></a>
+        </div>
+      </div>
+    </aside>
+    <!-- ------------------------------------------------- short paragraph  ------------------------------------------------------- -->
+    <section class="container-fluid short-paragraph rounded-3 p-2">
+      <div class="short-paragraph-div">
+        <h2 class="text-capitalize text-light">welcome</h2>
+        <p class="text-white-50">
+          The whole of life is just like watching a film. Only it's as though
+          you always get in ten minutes after the big picture has started, and
+          no-one will tell you the plot, so you have to work it out all yourself
+          from the clues.
+        </p>
+        <div class="short-button d-flex justify-content-end">
+          <button class="btn learn-more">Learn more</button>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------------------------- Types section  ------------------------------------------------------- -->
+    <section class="container-fluid mt-5">
+      <div class="types-icons container-fluid row pb-4 mb-5 text-white-50">
+        <i
+          class="fas fa-chart-line active col-lg-2 col-md-3 col-sm-4 col-6 m-auto mb-3"
+          >&nbsp;&nbsp;<span>Trends </span></i
+        >
+        <i class="fas fa-fire col-lg-2 col-md-3 col-sm-4 col-6 m-auto mb-3"
+          >&nbsp;&nbsp;<span>Popular</span></i
+        >
+        <i class="fas fa-star col-lg-2 col-md-3 col-sm-4 col-6 m-auto"
+          >&nbsp;&nbsp;<span>premieres</span></i
+        >
+        <i class="fas fa-plus col-lg-2 col-md-3 col-sm-4 col-6 m-auto"
+          >&nbsp;&nbsp;<span>Recently</span></i
+        >
+      </div>
+      <div class="types-buttons row">
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >action</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >crime</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >war</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >horror</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >spy</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >comedy</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >drama</a
+        >
+        <a
+          href="#"
+          class="btn text-capitalize col-lg-1 col-md-3 col-sm-4 col-4 rounded-pill mb-3 m-auto text-light"
+          >anime</a
+        >
+      </div>
+      <div class="parent mt-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img src="./images/adamProject.jpg" alt="img" class="img-fluid
+                rounded-3 draggable="false">
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                adam project
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2022</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/adventuresOfTheVakedUmbrella.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                naked umbrella
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">5.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/butchersCrossingVer2.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                butchers crossing
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2019</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/creediiiVer11.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                creediii
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.7</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/dyingToSleep.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                dying to sleep
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2022</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.4</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/curseOfBridgeHollow.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                curse of bridge
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">7.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/expend4blesVer17.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                expendables 4
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">8.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/extractionTwo.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                extraction 2
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">8.2</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/forestHillsVer3.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                forest hills
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2020</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">7.4</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/guardian.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                guardians
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">7.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/IndianaJones.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                Indiana jones
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">8.5</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/kandahar.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                kandahar
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2018</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.9</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/knights.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                knights
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2021</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">5.8</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/hauntedLoudHouse.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                loud house
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2022</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.7</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/m3gan.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                megan
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">7.1</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/napoleon.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                napoleon
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2023</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.0</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/yourFriendMemphis.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                friend memphis
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2020</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">5.6</span>
+                </div>
+              </div>
+            </div>
+            <div class="item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+              <div
+                class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+              >
+                <img
+                  src="./images/yourLuckyDay.jpg"
+                  alt="img"
+                  class="img-fluid rounded-3"
+                  draggable="false"
+                />
+              </div>
+              <p
+                class="name text-capitalize text-md-start text-center text-light mb-1"
+              >
+                your lucky day
+              </p>
+              <div
+                class="d-flex justify-content-md-between justify-content-center m-sm-auto"
+              >
+                <span class="text-white-50 year me-3">2019</span>
+                <div class="film-icons text-sm-center">
+                  <a href="#"><i class="fas fa-heart"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-eye"></i></a>&nbsp;
+                  <a href="#"><i class="fas fa-star star"></i></a>
+                  <span class="rate text-white-50">6.8</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------------------------- collapse-occordion  ------------------------------------------------------- -->
+    <section class="collapse-occordion container">
+      <div class="collapse-div mt-5">
+        <h2 class="text-capitalize text-white-50 text-center mb-3">
+          types of movies
+        </h2>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a
+                class="btn text-white-50"
+                data-bs-toggle="collapse"
+                href="#collapseOne"
+              >
+                Mystery Movies
+              </a>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse "
+              data-bs-parent="#accordion"
+            >
+              <div class="card-body text-white-50 ms-3">
+                A mystery film is a genre of film that revolves around the
+                solution of a problem or a crime. It focuses on the efforts of
+                the detective, private investigator or amateur sleuth to solve
+                the mysterious circumstances of an issue by means of clues,
+                investigation, and clever deduction.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a
+                class="collapsed btn text-white-50"
+                data-bs-toggle="collapse"
+                href="#collapseTwo"
+              >
+                Action Movies
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body text-white-50 ms-3">
+                Action films are a film genre where action sequences, such as
+                fighting, stunts, car chases or explosions, take precedence over
+                elements like characterization or complex plotting. The action
+                typically involves individual efforts on the part of the hero,
+                in contrast with most war films.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a
+                class="collapsed btn text-white-50"
+                data-bs-toggle="collapse"
+                href="#collapseThree"
+              >
+                Science Fiction Movies
+              </a>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              data-bs-parent="#accordion"
+            >
+              <div class="card-body text-white-50 ms-3">
+                Response stopped Science fiction movies are a genre of films
+                that use speculative, fictional science-based depictions of
+                phenomena that are not fully accepted by mainstream science,
+                such as extraterrestrial lifeforms, spacecraft, robots, cyborgs,
+                dinosaurs, mutants, interstellar travel, time travel, or other
+                technologies
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------iconic movies  ------------------------------------------------------- -->
+    <section class="iconic container">
+      <div class="iconic-parent mt-5">
+        <h2 class="text-capitalize text-white-50 text-center mb-3">
+          iconic movies
+        </h2>
+        <div class="iconic1">
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/harryPotter.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  Adaptation of the first of J.K. Rowling's popular children's
+                  novels about Harry Potter, a boy who learns on his eleventh
+                  birthday that he is the orphaned son of two powerful wizards
+                  and possesses unique magical powers of his own. He is summoned
+                  from his life as an unwanted child to become a student at
+                  Hogwarts, an English boarding school for wizards. There, he
+                  meets several friends who become his closest allies and help
+                  him discover the truth about his parents' mysterious deaths.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/lordOfRings.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  The future of civilization rests in the fate of the One Ring,
+                  which has been lost for centuries. Powerful forces are
+                  unrelenting in their search for it. But fate has placed it in
+                  the hands of a young Hobbit named Frodo Baggins (Elijah Wood),
+                  who inherits the Ring and steps into legend. A daunting task
+                  lies ahead for Frodo when he becomes the Ringbearer - to
+                  destroy the One Ring in the fires of Mount Doom where it was
+                  forged.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/darkKnight.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  With the help of allies Lt. Jim Gordon (Gary Oldman) and DA
+                  Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been
+                  able to keep a tight lid on crime in Gotham City. But when a
+                  vile young criminal calling himself the Joker (Heath Ledger)
+                  suddenly throws the town into chaos, the caped Crusader begins
+                  to tread a fine line between heroism and vigilantism.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/avatar.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  On the lush alien world of Pandora live the Na'vi, beings who
+                  appear primitive but are highly evolved. Because the planet's
+                  environment is poisonous, human/Na'vi hybrids, called Avatars,
+                  must link to human minds to allow for free movement on
+                  Pandora. Jake Sully (Sam Worthington), a paralyzed former
+                  Marine, becomes mobile again through one such Avatar and falls
+                  in love with a Na'vi woman (Zoe Saldana). As a bond with her
+                  grows, he is drawn into a battle for the survival of her
+                  world.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/mazeRunner.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  Thomas (Dylan O'Brien), a teenager, arrives in a glade at the
+                  center of a giant labyrinth. Like the other youths dumped
+                  there before him, he has no memory of his previous life.
+                  Thomas quickly becomes part of the group and soon after
+                  demonstrates a unique perspective that scores him a promotion
+                  to Runner status -- those who patrol the always-changing maze
+                  to find an escape route. Together with Teresa (Kaya
+                  Scodelario), the only female, Thomas tries to convince his
+                  cohorts that he knows a way out.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/godFather.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  The compelling sequel to "The Godfather," contrasting the life
+                  of Corleone father and son. Traces the problems of Michael
+                  Corleone (Al Pacino) in 1958 and that of a young immigrant
+                  Vito Corleone (Robert De Niro) in 1917's Hell's Kitchen.
+                  Michael survives many misfortunes and Vito is introduced to a
+                  life of crime.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="iconic-item rounded-3 mt-4">
+            <div class="iconic-box d-md-flex justify-content-lg-between">
+              <div class="iconic-img">
+                <img
+                  src="./images/terminator.jpg"
+                  class="img-fluid rounded-3 h-100 w-100"
+                  alt="img"
+                />
+              </div>
+              <div
+                class="iconic-p container d-flex align-items-lg-center align-items-sm-end align-items-sm-end rounded-end"
+              >
+                <p class="text-white-50 mt-3">
+                  In this sequel set eleven years after "The Terminator," young
+                  John Connor (Edward Furlong), the key to civilization's
+                  victory over a future robot uprising, is the target of the
+                  shape-shifting T-1000 (Robert Patrick), a Terminator sent from
+                  the future to kill him. Another Terminator, the revamped T-800
+                  (Arnold Schwarzenegger), has been sent back to protect the
+                  boy. As John and his mother (Linda Hamilton) go on the run
+                  with the T-800, the boy forms an unexpected bond with the
+                  robot.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------coming soon ------------------------------------------------------- -->
+    <section class="mt-5">
+      <div class="coming-parent container pt-3 pb-3 rounded-3">
+        <h2 class="text-capitalize text-white-50 text-center mb-3">
+          coming soon
+        </h2>
+        <div class="coming-img1 fixed-img rounded-3"></div>
+        <h2 class="coming-subtitle mt-3 ms-3 text-capitalize  text-center ">transformers 4</h2>
+        <div class="container text-center mt-3 mb-5 text-white-50">
+          The Transformers movies are about123: An ancient struggle between two
+          Cybertronian races, the heroic Autobots and the evil Decepticons. The
+          Transformers' arrival on modern-day Earth and their interactions with
+          the human race. The search for the life-giving AllSpark and the
+          ultimate power held by a teenager.
+        </div>
+        <div class="coming-img2 fixed-img rounded-3"></div>
+        <h2 class="coming-subtitle mt-3 ms-3 text-capitalize  text-center ">deadpool 3</h2>
+        <div class="container text-center mt-3 mb-5 text-white-50">
+          Wade Wilson (Ryan Reynolds) is a former Special Forces operative who
+          now works as a mercenary. His world comes crashing down when evil
+          scientist Ajax (Ed Skrein) tortures, disfigures and transforms him
+          into Deadpool. The rogue experiment leaves Deadpool with accelerated
+          healing powers and a twisted sense of humor. With help from mutant
+          allies Colossus and Negasonic Teenage Warhead (Brianna Hildebrand),
+          Deadpool uses his new skills to hunt down the man who nearly destroyed
+          his life.
+        </div>
+        <div class="coming-img3 fixed-img rounded-3"></div>
+        <h2 class="coming-subtitle mt-3 ms-3 text-capitalize  text-center ">knives out 3</h2>
+        <div class="container text-center mt-3  text-white-50">
+          Knives Out is a dark comedy mystery1about the death of Harlan Thrombey
+          (Christopher Plummer), a wealthy crime novelist23, who is found dead
+          with his throat slit at his mansion after his 85th birthday party423.
+          His dysfunctional family1becomes a suspect, and a private detective,
+          Benoit Blanc (Daniel Craig)42, is hired to investigate the case. The
+          movie is funny and unpredictable1, and explores themes of greed,
+          family, and justice.
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------------anime section ------------------------------------------------------- -->
+        <section class="mt-5">
+          <div class="anime-parent container pt-3 rounded-3">
+              <h2 class="anime-title text-capitalize text-white-50 text-center mb-4 ">anime characters</h2>
+            <div class="row">
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime1.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime2.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime3.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime4.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime5.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime6.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime7.jpg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime8.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime9.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime10.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime11.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              <div class="anime-item col-12 col-sm-6 col-md-3 col-lg-2 mb-4">
+                <div
+                  class="box mb-2 position-relative rounded-3 d-flex justify-content-center"
+                >
+                  <img src="./images/anime12.jpeg" alt="img" class="img-fluid
+                  rounded-3 draggable="false">
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- -------------------------------------------------footer ------------------------------------------------------- -->
+    <footer class="mt-5 ">
+      <div class="foot-parent h-100 pb-5">
+        <div class="container-fluid">
+        <div class="row text-center">
+          <div class="div1 col-md-3 col-12  text-white-50 mt-5 text-capitalize ">
+            <h2 class="mb-4">company</h2>
+            <a href="#"><p>about us</p></a>
+            <a href="#"><p>our services</p></a>
+            <a href="#"><p>privacy policies</p></a>
+            <a href="#"><p>payment options</p></a>
+          </div>
+          <div class="div2 col-md-3 col-12  text-white-50 mt-5 text-capitalize">
+            <h2 class="mb-4">get help</h2>
+            <a href="#"><p>FAQ</p></a>
+            <a href="#"><p>contract</p></a>
+            <a href="#"><p>order us</p></a>
+          </div>
+          <div class="div3 col-md-3 col-12  text-white-50 mt-5 text-capitalize">
+            <h2 class="mb-4">useful links</h2>
+            <a href="#"><p>home</p></a>
+            <a href="#"><p>blog</p></a>
+            <a href="#"><p>services</p></a>
+            <a href="#"><p>pages</p></a>
+            <a href="#"><p>about us</p></a>
+          </div>
+          <div class="div4 col-md-3 col-12  text-white-50 mt-5 text-capitalize">
+            <h2 class="mb-4">follow us</h2>
+            <a href="#"><i class="fab fa-facebook-square h1 text-primary"></i></a>
+            <a href="#"><i class="fab fa-whatsapp-square h1 text-success"></i></a>
+            <a href="#"><i class="fab fa-twitter-square h1 text-info"></i></a>
+            <a href="#"><i class="fab fa-linkedin h1 text-primary"></i></a>
+            <a href="#"><i class="fab fa-instagram-square h1 text-danger"></i></a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
